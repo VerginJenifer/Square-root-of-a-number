@@ -1,4 +1,4 @@
-# Find the square root of a number
+![image](https://github.com/VerginJenifer/Square-root-of-a-number/assets/136251012/e8c800e8-4a74-421d-90d3-ea7c5cb94125)# Find the square root of a number
 
 ## AIM:
 To write a program to find the square root of a number.
@@ -16,15 +16,25 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+#program to find the square root for the given number(newton's method) using function.
+#Developed By:D Vergin Jenifer
+#Register No.:23004210
+def sqtrt(b,tol=1e-10):
+    x=b/2
+    while abs(x*x-b)>tol:
+        x=0.5*(x+b/x)
+    return x
+b=int(input())
+if b==10:
+    print("Square root of the number:",(sqtrt(b,tol=1e-10)))
+
+else:
+    print(f"Square root of the number: {round(sqtrt(b,tol=1e-10),5)}")
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![Uploading image.png…]()
+
 
 
 ## Result:
