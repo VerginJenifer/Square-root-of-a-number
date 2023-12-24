@@ -1,4 +1,3 @@
-![image](https://github.com/VerginJenifer/Square-root-of-a-number/assets/136251012/e8c800e8-4a74-421d-90d3-ea7c5cb94125)# Find the square root of a number
 
 ## AIM:
 To write a program to find the square root of a number.
@@ -33,9 +32,7 @@ else:
 ```
 
 ## Output:
-![Uploading image.png…]()
-
-
+![image](https://github.com/VerginJenifer/Square-root-of-a-number/assets/136251012/72d527cc-e8e6-41c7-b252-474ad2d4ad81)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
