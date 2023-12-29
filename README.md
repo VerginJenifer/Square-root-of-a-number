@@ -1,4 +1,5 @@
-#### Square root of a number
+## SQUARE ROOT OF A NUMBER
+
 ## AIM:
 To write a program to find the square root of a number.
 
